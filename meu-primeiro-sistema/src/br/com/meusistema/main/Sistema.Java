@@ -8,8 +8,9 @@ public class Sistema {
 
 // Criando o objeto (Construindo o Carro 1)
 Carro meuCarro = new Carro();
-meuCarro.modelo = "Fusca";
-meuCarro.cor = "Azul";
+meuCarro.setModelo("Fusca");
+meuCarro.setCor("Azul");
+meuCarro.setVelocidade(-500);
 // Chamando o método (Comportamento)
 meuCarro.buzinar();
 // Desafio Rápido: Crie um "Carro 2", de outro modelo e
